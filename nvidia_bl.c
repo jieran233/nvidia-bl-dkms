@@ -925,7 +925,7 @@ static int nvidia_bl_map_smartdimmer(struct driver_data *dd)
 		       "smartdimmer at 0x%lx\n", dd->bar, bar_start, reg_addr);
 
 	/* Now really map (The address need not be page-aligned.) */
-	dd->smartdimmer = ioremap_nocache(reg_addr, dd->reg_size);
+	dd->smartdimmer = ioremap_cache(reg_addr, dd->reg_size);
 	if (!dd->smartdimmer)
 		return -ENXIO;
 

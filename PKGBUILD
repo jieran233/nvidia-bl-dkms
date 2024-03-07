@@ -20,8 +20,8 @@ source=('nvidia_bl.c'
         'nvidia_bl.conf'
         'nvidia_bl_ml.conf'
         'dkms.conf')
-md5sums=('52131bc4de928fbc13c00a44a3538486'
-         'e6a6a05f27e49c53783243e278ad6551'
+md5sums=('27fa292bd130799f84fbdbf9839b7c56'
+         'ab33e47171098009a47d11574bbc6ebd'
          '897ee78c30e6b498d0e3ce07c06dabc5'
          '5771d2ea826f76d8f27bd9fdcb78a76f'
          'b5547c594e8c2d72620e95888bd79d7f')
