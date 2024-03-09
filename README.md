@@ -4,7 +4,13 @@ Upstream: https://aur.archlinux.org/packages/nvidia-bl-dkms
 
 This patch original by @sapphire in https://aur.archlinux.org/packages/nvidia-bl-dkms
 
-Can work properly with Linux 5.15 LTS
+According to my test, it can work properly with:
+- Linux 5.15 LTS
+- Linux 6.6 LTS
+
+And not work with Linux 6.7
+
+I haven't tested on other Kernels other than these
 
 ## Installation
 
